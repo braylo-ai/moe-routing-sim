@@ -1,0 +1,45 @@
+conc=0.1 D=4 naive: contiguous experts, round-robin requests    remote=0.750 traffic=1.000 speedup=1.00
+conc=0.1 D=4 co-activation placement, round-robin requests      remote=0.749 traffic=0.977 speedup=0.99
+conc=0.1 D=4 affinity placement, round-robin requests           remote=0.757 traffic=0.944 speedup=1.03
+conc=0.1 D=4 locality-aware: affinity placement + locality requ remote=0.554 traffic=0.814 speedup=1.08
+conc=0.1 D=4 locality-aware + 2 hot-expert replicas/layer       remote=0.426 traffic=0.657 speedup=1.23
+conc=0.1 D=8 naive: contiguous experts, round-robin requests    remote=0.875 traffic=1.000 speedup=1.00
+conc=0.1 D=8 co-activation placement, round-robin requests      remote=0.877 traffic=1.003 speedup=1.14
+conc=0.1 D=8 affinity placement, round-robin requests           remote=0.878 traffic=0.935 speedup=1.17
+conc=0.1 D=8 locality-aware: affinity placement + locality requ remote=0.655 traffic=0.787 speedup=1.23
+conc=0.1 D=8 locality-aware + 2 hot-expert replicas/layer       remote=0.503 traffic=0.606 speedup=1.52
+conc=0.1 D=16 naive: contiguous experts, round-robin requests    remote=0.937 traffic=1.000 speedup=1.00
+conc=0.1 D=16 co-activation placement, round-robin requests      remote=0.938 traffic=1.006 speedup=1.07
+conc=0.1 D=16 affinity placement, round-robin requests           remote=0.936 traffic=0.943 speedup=0.87
+conc=0.1 D=16 locality-aware: affinity placement + locality requ remote=0.819 traffic=0.845 speedup=0.88
+conc=0.1 D=16 locality-aware + 2 hot-expert replicas/layer       remote=0.654 traffic=0.685 speedup=2.12
+conc=0.3 D=4 naive: contiguous experts, round-robin requests    remote=0.750 traffic=1.000 speedup=1.00
+conc=0.3 D=4 co-activation placement, round-robin requests      remote=0.751 traffic=0.982 speedup=0.96
+conc=0.3 D=4 affinity placement, round-robin requests           remote=0.753 traffic=0.973 speedup=1.04
+conc=0.3 D=4 locality-aware: affinity placement + locality requ remote=0.615 traffic=0.878 speedup=1.04
+conc=0.3 D=4 locality-aware + 2 hot-expert replicas/layer       remote=0.487 traffic=0.734 speedup=1.19
+conc=0.3 D=8 naive: contiguous experts, round-robin requests    remote=0.875 traffic=1.000 speedup=1.00
+conc=0.3 D=8 co-activation placement, round-robin requests      remote=0.875 traffic=1.005 speedup=1.12
+conc=0.3 D=8 affinity placement, round-robin requests           remote=0.868 traffic=0.971 speedup=1.15
+conc=0.3 D=8 locality-aware: affinity placement + locality requ remote=0.726 traffic=0.864 speedup=1.18
+conc=0.3 D=8 locality-aware + 2 hot-expert replicas/layer       remote=0.576 traffic=0.695 speedup=1.49
+conc=0.3 D=16 naive: contiguous experts, round-robin requests    remote=0.938 traffic=1.000 speedup=1.00
+conc=0.3 D=16 co-activation placement, round-robin requests      remote=0.937 traffic=1.010 speedup=1.10
+conc=0.3 D=16 affinity placement, round-robin requests           remote=0.936 traffic=0.972 speedup=0.91
+conc=0.3 D=16 locality-aware: affinity placement + locality requ remote=0.860 traffic=0.905 speedup=0.92
+conc=0.3 D=16 locality-aware + 2 hot-expert replicas/layer       remote=0.697 traffic=0.748 speedup=2.14
+conc=1.0 D=4 naive: contiguous experts, round-robin requests    remote=0.750 traffic=1.000 speedup=1.00
+conc=1.0 D=4 co-activation placement, round-robin requests      remote=0.749 traffic=0.979 speedup=0.93
+conc=1.0 D=4 affinity placement, round-robin requests           remote=0.755 traffic=0.996 speedup=1.00
+conc=1.0 D=4 locality-aware: affinity placement + locality requ remote=0.674 traffic=0.936 speedup=0.99
+conc=1.0 D=4 locality-aware + 2 hot-expert replicas/layer       remote=0.545 traffic=0.808 speedup=1.17
+conc=1.0 D=8 naive: contiguous experts, round-robin requests    remote=0.875 traffic=1.000 speedup=1.00
+conc=1.0 D=8 co-activation placement, round-robin requests      remote=0.875 traffic=1.002 speedup=1.07
+conc=1.0 D=8 affinity placement, round-robin requests           remote=0.873 traffic=0.997 speedup=1.11
+conc=1.0 D=8 locality-aware: affinity placement + locality requ remote=0.790 traffic=0.928 speedup=1.12
+conc=1.0 D=8 locality-aware + 2 hot-expert replicas/layer       remote=0.638 traffic=0.764 speedup=1.46
+conc=1.0 D=16 naive: contiguous experts, round-robin requests    remote=0.937 traffic=1.000 speedup=1.00
+conc=1.0 D=16 co-activation placement, round-robin requests      remote=0.937 traffic=1.008 speedup=1.08
+conc=1.0 D=16 affinity placement, round-robin requests           remote=0.939 traffic=0.987 speedup=0.88
+conc=1.0 D=16 locality-aware: affinity placement + locality requ remote=0.897 traffic=0.948 speedup=0.89
+conc=1.0 D=16 locality-aware + 2 hot-expert replicas/layer       remote=0.733 traffic=0.792 speedup=1.99
